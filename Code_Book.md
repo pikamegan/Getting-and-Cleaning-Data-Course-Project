@@ -21,51 +21,89 @@ Both categories can be further broken down into:
 
 Average body acceleration in the X, Y and Z directions:
 
-```time_domain_body_accelerometer_mean_X-axis```
-```time_domain_body_accelerometer_mean_Y-axis```
+- ```time_domain_body_accelerometer_mean_X-axis```
+- ```time_domain_body_accelerometer_mean_Y-axis```
+- ```time_domain_body_accelerometer_mean_Z-axis```
+
+- ```frequency_domain_body_accelerometer_mean_X-axis```
+- ```frequency_domain_body_accelerometer_mean_Y-axis``` 
+- ```frequency_domain_body_accelerometer_mean_Z-axis```
 
 
+Standard deviation of body acceleration in the X, Y and Z directions:
 
-Standard deviation of the time-domain body acceleration in the X, Y and Z directions:
+- ```time_domain_body_accelerometer_standard_deviation_X-axis``` 
+- ```time_domain_body_accelerometer_standard_deviation_Y-axis``` 
+- ```time_domain_body_accelerometer_standard_deviation_Z-axis``` 
 
-timeDomainBodyAccelerometerStandardDeviationX
-timeDomainBodyAccelerometerStandardDeviationY
-timeDomainBodyAccelerometerStandardDeviationZ
-Average time-domain gravity acceleration in the X, Y and Z directions:
+- ```frequency_domain_body_accelerometer_standard_deviation_X-axis``` 
+- ```frequency_domain_body_accelerometer_standard_deviation_Y-axis``` 
+- ```frequency_domain_body_accelerometer_standard_deviation_Z-axis```
 
-timeDomainGravityAccelerometerMeanX
-timeDomainGravityAccelerometerMeanY
-timeDomainGravityAccelerometerMeanZ
-Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions:
+Average gravity acceleration in the X, Y and Z directions:
 
-timeDomainGravityAccelerometerStandardDeviationX
-timeDomainGravityAccelerometerStandardDeviationY
-timeDomainGravityAccelerometerStandardDeviationZ
-Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+- ```time_domain_gravity_accelerometer_mean_X-axis``` 
+- ```time_domain_gravity_accelerometer_mean_Y-axis``` 
+- ```time_domain_gravity_accelerometer_mean_Z-axis```
 
-timeDomainBodyAccelerometerJerkMeanX
-timeDomainBodyAccelerometerJerkMeanY
-timeDomainBodyAccelerometerJerkMeanZ
-Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+Note: Not applicable for frequency domain.
 
-timeDomainBodyAccelerometerJerkStandardDeviationX
-timeDomainBodyAccelerometerJerkStandardDeviationY
-timeDomainBodyAccelerometerJerkStandardDeviationZ
-Average time-domain body angular velocity in the X, Y and Z directions:
+Standard deviation of gravity acceleration in the X, Y and Z directions:
 
-timeDomainBodyGyroscopeMeanX
-timeDomainBodyGyroscopeMeanY
-timeDomainBodyGyroscopeMeanZ
-Standard deviation of the time-domain body angular velocity in the X, Y and Z directions:
+- ```time_domain_gravity_accelerometer_standard_deviation_X-axis```
+- ```time_domain_gravity_accelerometer_standard_deviation_Y-axis``` 
+- ```time_domain_gravity_accelerometer_standard_deviation_Z-axis```
 
-timeDomainBodyGyroscopeStandardDeviationX
-timeDomainBodyGyroscopeStandardDeviationY
-timeDomainBodyGyroscopeStandardDeviationZ
+Note: Not applicable for frequency domain.
+
+Average body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+
+- ```time_domain_body_accelerometer_jerk_mean_X-axis```
+- ```time_domain_body_accelerometer_jerk_mean_Y-axis``` 
+- ```time_domain_body_accelerometer_jerk_mean_Z-axis```
+
+- ```frequency_domain_body_accelerometer_jerk_mean_X-axis``` 
+- ```frequency_domain_body_accelerometer_jerk_mean_Y-axis``` 
+- ```frequency_domain_body_accelerometer_jerk_mean_Z-axis```
+
+Standard deviation of body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+
+- ```time_domain_body_accelerometer_jerk_standard_deviation_X-axis``` 
+- ```time_domain_body_accelerometer_jerk_standard_deviation_Y-axis``` 
+- ```time_domain_body_accelerometer_jerk_standard_deviation_Z-axis```
+
+- ```frequency_domain_body_accelerometer_jerk_standard_deviation_X-axis``` 
+- ```frequency_domain_body_accelerometer_jerk_standard_deviation_Y-axis``` 
+- ```frequency_domain_body_accelerometer_jerk_standard_deviation_Z-axis```
+
+Average body angular velocity in the X, Y and Z directions:
+
+- ```time_domain_body_gyroscope_mean_X-axis``` 
+- ```time_domain_body_gyroscope_mean_Y-axis``` 
+- ```time_domain_body_gyroscope_mean_Z-axis```
+
+- ```frequency_domain_body_gyroscope_mean_X-axis``` 
+- ```frequency_domain_body_gyroscope_mean_Y-axis``` 
+- ```frequency_domain_body_gyroscope_mean_Z-axis```
+
+Standard deviation of body angular velocity in the X, Y and Z directions:
+
+- ```time_domain_body_gyroscope_standard_deviation_X-axis``` 
+- ```time_domain_body_gyroscope_standard_deviation_Y-axis``` 
+- ```time_domain_body_gyroscope_standard_deviation_Z-axis```
+
+- ```frequency_domain_body_gyroscope_standard_deviation_X-axis``` 
+- ```frequency_domain_body_gyroscope_standard_deviation_Y-axis``` 
+- ```frequency_domain_body_gyroscope_standard_deviation_Z-axis```
+
 Average time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
 
-timeDomainBodyGyroscopeJerkMeanX
-timeDomainBodyGyroscopeJerkMeanY
-timeDomainBodyGyroscopeJerkMeanZ
+- ```time_domain_body_gyroscope_jerk_mean_X-axis``` 
+- ```time_domain_body_gyroscope_jerk_mean_Y-axis``` 
+- ```time_domain_body_gyroscope_jerk_mean_Z-axis```
+
+- ```
+
 Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
 
 timeDomainBodyGyroscopeJerkStandardDeviationX
