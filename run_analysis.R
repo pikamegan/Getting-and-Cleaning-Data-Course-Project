@@ -68,12 +68,12 @@ columns <- gsub("Body", "_body", columns)
 columns <- gsub("Gravity", "_gravity", columns)
 columns <- gsub("Gyro", "_gyroscope", columns)
 columns <- gsub("Mag", "_magnitude", columns)
-columns <- gsub("BodyBody", "_body", columns)
 columns <- gsub("std", "_standard_deviation", columns)
 columns <- gsub("mean", "_mean", columns)
 columns <- gsub("X", "_X-axis", columns)
 columns <- gsub("Y", "_Y-axis", columns)
 columns <- gsub("Z", "_Z-axis", columns)
+columns <- gsub("_body_body", "_body", columns)
 
 colnames(mergedData2) <- columns
 colnames(mergedData2)
@@ -89,3 +89,4 @@ means_only <- mergedData2 %>% group_by(subject, activity) %>% summarise_each(mea
 
 #write new tidy dataset to new file
 write.table(means_only, "tidy_data.txt", row.names = FALSE, quote = FALSE)
+
