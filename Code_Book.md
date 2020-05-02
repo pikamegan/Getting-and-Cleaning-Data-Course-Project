@@ -46,7 +46,7 @@ Average gravity acceleration in the X, Y and Z directions:
 - ```time_domain_gravity_accelerometer_mean_Y-axis``` 
 - ```time_domain_gravity_accelerometer_mean_Z-axis```
 
-Note: Not applicable for frequency domain.
+- Note: Not applicable for frequency domain.
 
 Standard deviation of gravity acceleration in the X, Y and Z directions:
 
@@ -54,7 +54,7 @@ Standard deviation of gravity acceleration in the X, Y and Z directions:
 - ```time_domain_gravity_accelerometer_standard_deviation_Y-axis``` 
 - ```time_domain_gravity_accelerometer_standard_deviation_Z-axis```
 
-Note: Not applicable for frequency domain.
+- Note: Not applicable for frequency domain.
 
 Average body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
 
@@ -102,7 +102,7 @@ Average body angular velocity jerk (derivation of the angular velocity in time) 
 - ```time_domain_body_gyroscope_jerk_mean_Y-axis``` 
 - ```time_domain_body_gyroscope_jerk_mean_Z-axis```
 
-Note: Not applicable for frequency domain.
+- Note: Not applicable for frequency domain.
 
 Standard deviation of body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
 
@@ -110,7 +110,7 @@ Standard deviation of body angular velocity jerk (derivation of the angular velo
 - ```time_domain_body_gyroscope_jerk_standard_deviation_Y-axis```            
 - ```time_domain_body_gyroscope_jerk_standard_deviation_Z-axis```
 
-Note: not applicable for frequency domain.
+- Note: not applicable for frequency domain.
 
 Average and standard deviation of magnitude of body acceleration:
 
