@@ -16,7 +16,8 @@ Activities include:
 - ```LAYING```
 
 Remaining variables are feature variables. Features are normalized and bounded within [-1,1]. 
-They can be divided into two main categories: Time Domain and Frequency Domain.
+They can be divided into two main categories: Time-domain signals and Frequency-domain signals. Time domain is derived from the capture of accelerometer and gyroscope raw signals. Frequency domain is derived from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
+
 Both categories can be further broken down into:
 
 Average body acceleration in the X, Y and Z directions:
@@ -155,3 +156,8 @@ Average and standard deviation of magnitude of body angular velocity jerk (deriv
 
 - ```frequency_domain_body_gyroscope_jerk_magnitude_mean```                  
 - ```frequency_domain_body_gyroscope_jerk_magnitude_standard_deviation``` 
+
+### Units
+- Variables containing accelerometer: g's (9.81 m.s⁻²)
+- Variables containing gyroscope: radians per second (rad.s⁻¹).
+- Variables containing magnitude: calculated using Euclidiean norm. 
