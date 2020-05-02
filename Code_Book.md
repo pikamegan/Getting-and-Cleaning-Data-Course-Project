@@ -16,7 +16,7 @@ Activities include:
 - ```LAYING```
 
 Remaining variables are feature variables. Features are normalized and bounded within [-1,1]. 
-They can be divided into two main categories: Time-domain signals and Frequency-domain signals. Time domain is derived from the capture of accelerometer and gyroscope raw signals. Frequency domain is derived from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
+They can be divided into two main categories: Time-domain signals and Frequency-domain signals. Time-domain signals are derived from the capture of accelerometer and gyroscope raw signals. Frequency-domain signals are derived from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
 
 Both categories can be further broken down into:
 
